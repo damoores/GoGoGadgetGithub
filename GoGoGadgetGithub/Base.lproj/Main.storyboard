@@ -16,11 +16,37 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vN2-S5-B2G">
+                                <rect key="frame" x="0.0" y="285" width="600" height="30"/>
+                                <state key="normal" title="Request Token"/>
+                                <connections>
+                                    <action selector="requestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qQu-Rc-HI3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuO-Yb-G1f">
+                                <rect key="frame" x="0.0" y="365" width="600" height="30"/>
+                                <state key="normal" title="Print Token"/>
+                                <connections>
+                                    <action selector="printButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LF5-cR-0bu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WuO-Yb-G1f" secondAttribute="trailing" id="1wZ-wB-4lI"/>
+                            <constraint firstItem="vN2-S5-B2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Kr-kk-Zeh"/>
+                            <constraint firstItem="WuO-Yb-G1f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DTH-YK-TTt"/>
+                            <constraint firstItem="vN2-S5-B2G" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mf8-TN-ZFY"/>
+                            <constraint firstAttribute="trailing" secondItem="vN2-S5-B2G" secondAttribute="trailing" id="fFQ-ls-sPM"/>
+                            <constraint firstItem="WuO-Yb-G1f" firstAttribute="top" secondItem="vN2-S5-B2G" secondAttribute="bottom" constant="50" id="fLm-Rn-pN5"/>
+                            <constraint firstItem="vN2-S5-B2G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zm9-3u-Oa1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="275" y="325"/>
         </scene>
     </scenes>
 </document>

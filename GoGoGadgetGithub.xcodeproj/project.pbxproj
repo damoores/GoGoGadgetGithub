@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70FDF6AF1D2199B700507C12 /* GoGoGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGoGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FDF6AF1D2199B700507C12 /* GoGoGadgetGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGoGadgetGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FDF6B21D2199B700507C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70FDF6B41D2199B700507C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70FDF6B71D2199B700507C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		70FDF6B01D2199B700507C12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70FDF6AF1D2199B700507C12 /* GoGoGithub.app */,
+				70FDF6AF1D2199B700507C12 /* GoGoGadgetGithub.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70FDF6AE1D2199B600507C12 /* GoGoGithub */ = {
+		70FDF6AE1D2199B600507C12 /* GoGoGadgetGithub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70FDF6C11D2199B700507C12 /* Build configuration list for PBXNativeTarget "GoGoGithub" */;
+			buildConfigurationList = 70FDF6C11D2199B700507C12 /* Build configuration list for PBXNativeTarget "GoGoGadgetGithub" */;
 			buildPhases = (
 				70FDF6AB1D2199B600507C12 /* Sources */,
 				70FDF6AC1D2199B600507C12 /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = GoGoGithub;
+			name = GoGoGadgetGithub;
 			productName = GoGoGadgetGithub;
-			productReference = 70FDF6AF1D2199B700507C12 /* GoGoGithub.app */;
+			productReference = 70FDF6AF1D2199B700507C12 /* GoGoGadgetGithub.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70FDF6AA1D2199B600507C12 /* Build configuration list for PBXProject "GoGoGithub" */;
+			buildConfigurationList = 70FDF6AA1D2199B600507C12 /* Build configuration list for PBXProject "GoGoGadgetGithub" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70FDF6AE1D2199B600507C12 /* GoGoGithub */,
+				70FDF6AE1D2199B600507C12 /* GoGoGadgetGithub */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +302,7 @@
 				INFOPLIST_FILE = GoGoGadgetGithub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.GoGoGadgetGithub";
-				PRODUCT_NAME = GoGoGithub;
+				PRODUCT_NAME = GoGoGadgetGithub;
 			};
 			name = Debug;
 		};
@@ -313,14 +313,14 @@
 				INFOPLIST_FILE = GoGoGadgetGithub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.GoGoGadgetGithub";
-				PRODUCT_NAME = GoGoGithub;
+				PRODUCT_NAME = GoGoGadgetGithub;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70FDF6AA1D2199B600507C12 /* Build configuration list for PBXProject "GoGoGithub" */ = {
+		70FDF6AA1D2199B600507C12 /* Build configuration list for PBXProject "GoGoGadgetGithub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FDF6BF1D2199B700507C12 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70FDF6C11D2199B700507C12 /* Build configuration list for PBXNativeTarget "GoGoGithub" */ = {
+		70FDF6C11D2199B700507C12 /* Build configuration list for PBXNativeTarget "GoGoGadgetGithub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FDF6C21D2199B700507C12 /* Debug */,

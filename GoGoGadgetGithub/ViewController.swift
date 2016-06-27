@@ -10,8 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func requestButtonPressed(sender: AnyObject) {
+        
+        GithubOAuth.shared.oAuthRequestWith(["scope" : "email,user"])
+
+    }
     
-    
+    @IBAction func printButtonPressed(sender: AnyObject) {
+        
+        do {
+            let token = try GithubOAuth.shared.accessToken()
+            print("Token is:\(token)")
+        } catch let error {
+            print (error)
+        }
+        
+    }
     
     
     override func viewDidLoad() {
